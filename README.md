@@ -1,6 +1,5 @@
-# synonym-pathfinder
+# make-sense
 
-Note to self:
-We want to find synonyms that have the same meaning. i.e synonym for slope should not be the broad word 'cant', but the specicic form of 'cant' related to slope.
+Insert test_data.csv into the sample_data folder and run all cells in MakeSense.ipynb.
 
-start with a synset (bank.n.07) then look at .lemmas(), these are synset neighbours. Do recursively.
+You will see a new file test_data_gnn_results.csv. Merge this file with golden_senses and used the formulas from the paper to evaluate.
